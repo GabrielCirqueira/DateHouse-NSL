@@ -3,7 +3,7 @@
 import { Container, Stack, Heading, Text, Button, Flex, Box, Icon } from '@chakra-ui/react'
 import { FaReact, FaSymfony } from 'react-icons/fa'
 
-export default function IntroductionPage() {
+export function HelloWorld() {
   return (
     <Container maxW={'7xl'} py={{ base: 20, md: 28 }} centerContent>
       <Stack

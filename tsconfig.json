@@ -6,6 +6,7 @@
         "baseUrl": "assets/js",
         "paths": {
             "@components/*": ["components/*"],
+            "@pages/*": ["pages/*"],
         }
     }
   }

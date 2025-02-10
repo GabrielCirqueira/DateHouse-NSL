@@ -20,8 +20,9 @@ class TurmaController extends AbstractController
         CursoRepository $cursoRepository,
         TurnoRepository $turnoRepository,
         TurmaRepository $turmaRepository,
-        Request $request): Response
-    {
+        Request $request
+        ): Response {
+            
         $data = json_decode($request->getContent(), true);
 
         $curso = $cursoRepository->find($data['curso']);
